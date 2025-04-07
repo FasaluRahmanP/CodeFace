@@ -1,0 +1,22 @@
+body {
+    background-color: #080808;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #ffffff, #ffd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.wave-bg {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDgwIDI0MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggZD0iTTEwODAgMTIwdjEyMEgwVjBDMjUzLjY3IDYwLjUgMzg3LjMzIDUxLjUgNTQwIDE1M2MxNTIuNjcgMTAxLjUgMjg2LjMzIDEwMS41IDU0MCAzeiIgZmlsbD0iIzEyMTIxMiIvPjwvc3ZnPg==');
+    background-size: cover;
+    background-position: center;
+}
